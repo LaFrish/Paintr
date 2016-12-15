@@ -83,22 +83,17 @@ input[type="number"]{
 }
 
 input[type=color] {
-  display: inline-block;
-  vertical-align: middle;
-  width: 65px;
-  height: 28px;
-  /*padding: 1px;*/
-	  border-color: #666;
-  /*border: 1px solid #000;*/
-  /*background: transparent;*/
-  /*background: #333;*/
-  box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5);
-  /*border-radius: 2px;*/
+	display: inline-block;
+	vertical-align: middle;
+	width: 60px;
+	height: 28px;
+	border-color: #666;
+	box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 input[type=color]:hover,  {
-  outline: none;
-  border-color: #666;
-  color: #ddd;
+	outline: none;
+	border-color: #666;
+	color: #ddd;
 
 }
 /*IMAGE UPLOAD SECTION*/
@@ -107,12 +102,7 @@ input[type=color]:hover,  {
 }
 .image-container{
 	padding-left: 10px;
-	margin-bottom: 10px;
-}
-.fileButton span{
-	color: #262626;
-	letter-spacing: .75px;
-	font-weight: bolder;
+	margin-bottom: 15px;
 }
 
 
@@ -127,9 +117,11 @@ input[type=color]:hover,  {
 }
 #reset-select{
 	color: #262626;
-	font-weight: bolder;
-	letter-spacing: .5px;
+	font-weight: bold;
+	letter-spacing: 1px;
 	font-size: 10px;
+	text-align: center;
+	padding-left: 5px;
 }
 /*SAVE SECTION*/
 .section--save-canvas{
@@ -141,12 +133,43 @@ input[type=color]:hover,  {
 }
 #save-select{
 	color: #262626;
-	font-weight: bolder;
-	letter-spacing: .5px;
+	font-weight: bold;
+	letter-spacing: 1px;
 	font-size: 10px;
+	text-align: center;
+	padding-left: 7px;
 }
+
 /*//////////BUTTONS//////////*/
 
+
+#brush-select{
+	color: #262626;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 10px;
+	text-align: center;
+	padding-left: 7px;
+	text-transform: uppercase;
+}
+#stamp-select{
+	color: #262626;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 10px;
+	text-align: center;
+	padding-left: 7px;
+	text-transform: uppercase;
+}
+#eraser-select{
+	color: #262626;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 10px;
+	text-align: center;
+	padding-left: 7px;
+	text-transform: uppercase;
+}
 input[type="radio" i]{
 	display: none;
 }
@@ -154,12 +177,35 @@ input[type="radio" i]{
 input[type="file" i]{
 	display: none;
 }
-
-input[type=radio] + label{
-	font-size: 10px;
+button{
+	width: 45px;
+}
+.fileButton{
+	width: 125px;
+}
+.fileButton span{
+	color: #262626;
 	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 10px;
+	text-align: center;
+	padding-left: 1px;
 	text-transform: uppercase;
+}
+input[type=radio] + label{
 	height: 25px;
+	width: 53px;
+	color: #262626;
+	margin-left: 1px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 2px;
+	padding-top: 4px;
+	/*margin: 1px;*/
+	text-transform: uppercase;
 	display: inline-block;
 	background-color: #CCCCCC;
 	color: #262626;
@@ -167,7 +213,7 @@ input[type=radio] + label{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	padding: .4em .9em;
+	/*padding: .4em .9em;*/
 	margin-right: 3px;
 	background-color: #A5A5A5;
 	background: -webkit-linear-gradient(90deg, #868686 10%, #A5A5A5 100%);
@@ -180,7 +226,6 @@ input[type=radio] + label{
 button,
 input[type="button" i] {
 	height: 25px;
-	width: 60px;
 	border: 1px solid #D4D4D4;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -199,7 +244,6 @@ input[type="button" i] {
 	background: -ms-linear-gradient(90deg, #868686 10%, #A5A5A5 100%);
 	background: -o-linear-gradient(90deg, #868686 10%, #A5A5A5 100%);
 }
-
 
 .fileButton:hover,
 button:hover,
