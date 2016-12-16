@@ -22,7 +22,7 @@ npm start
 
 This app was part of a code challenge to create a drawing app in React-Redux and replicate the image provided for the app. Below is the finished product.
 ![](./public/img/app.png)
-![](./public/App-rendering.png)
+![](./public/img/App-rendering.png)
 
 
 ## Next Steps
