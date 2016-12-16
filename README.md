@@ -1,4 +1,4 @@
-# Social Tables Front End Intern Challenge
+# Paintr - React-Redux Painting App
 
 ## Instructions
 
