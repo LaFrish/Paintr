@@ -1,4 +1,14 @@
 # Paintr - React-Redux Painting App
+This app was part of a code challenge to create a drawing app in React-Redux and replicate the image provided for the app. Below is the finished product.
+
+## Drawing App Capabilities
+
+* Paint Mode
+* Image Stamp Mode
+* Eraser Mode
+* Upload Image
+* Reset Canvas
+* Save Canvas
 
 ## Instructions
 
@@ -8,21 +18,9 @@ cd drawing-app-challenge
 npm install
 npm start
 ```
-##Open [http://localhost:3000](http://localhost:3000)
----
+Open [http://localhost:3000](http://localhost:3000) and start drawing!
 
-## Drawing App Capabilities
-* Paint Mode
-* Image Stamp Mode
-* Eraser Mode
-* Reset Canvas
-* Save Canvas
-
-## Finished Product!
-
-This app was part of a code challenge to create a drawing app in React-Redux and replicate the image provided for the app. Below is the finished product.
-![](./public/img/app.png)
-![](./public/img/App-rendering.png)
+![](./public/img/painting.gif)
 
 
 ## Next Steps
